@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../vistas/boostrack/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="../vistas/asset/css/estiloprueba.css" />
+    <link rel="stylesheet" href="../vistas/asset/css/dashboarestilos.css" />
+    <link rel="stylesheet" href="../vistas/asset/css/yestilosdhasboard.css" />
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+    <!-- modomodal -->
+    <div class="modal fade modal-xl" id="proveedor">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content modal-xl">
+                <div class="modal-header modal-xl">
+                    <h5 class="modal-title modal-xl">Registro de Proveedor</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modal-xl">
+                    <!--  empiesa el cuerpo -->
+
+                    <!--    CAJAS DE PROVEEEDOR -->
+
+
+
+
+                    <!-- esto es de las cajas -->
+                    <div class="form-group form-group-sm container">
+                        <label class="col-sm-2 control-label " for="formGroupInputSmall">Nombre de la Empresa</label>
+                        <div class="col-sm-5 ">
+                            <input class="form-control margencaja" type="text" id="formGroupInputSmall"
+                                placeholder="Escribe" name="txtNombreEmpresa">
+
+                        </div>
+                    </div>
+                    <div class="form-group form-group-sm container">
+                        <label class="col-sm-2 control-label " for="formGroupInputSmall">RUC</label>
+                        <div class="col-sm-5 ">
+                            <input class="form-control margencaja" type="text" id="formGroupInputSmall"
+                                placeholder="Small input" name="txtRuc">
+                        </div>
+                    </div>
+                    <div class="form-group form-group-sm container">
+                        <label class="col-sm-2 control-label " for="formGroupInputSmall">Telefono</label>
+                        <div class="col-sm-5 ">
+                            <input class="form-control margencaja" type="text" id="formGroupInputSmall"
+                                placeholder="Small input" name="txtTelefono">
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group form-group-sm container">
+                        <label class="col-sm-2 control-label " for="formGroupInputSmall">Direccion</label>
+                        <div class="col-sm-5 ">
+                            <input class="form-control margencaja" type="text" id="formGroupInputSmall"
+                                placeholder="Small input" name="txtDireccion">
+                        </div>
+                    </div>
+                    <div class="form-group form-group-sm container">
+                        <label class="col-sm-2 control-label " for="formGroupInputSmall">Correo</label>
+                        <div class="col-sm-5 ">
+                            <input class="form-control margencaja" type="text" id="formGroupInputSmall"
+                                placeholder="Small input" name="txtCorreo">
+                        </div>
+                    </div>
+
+
+
+                    <br>
+
+
+                    <!--  esto pertenese al data grip -->
+                    <div class="container">
+
+                        <table class="table table-dark table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Marca</th>
+                                    <th>Nombre</th>
+                                    <th>Categoria</th>
+                                    <th>Unidad de medid</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Mary</td>
+                                    <td>Moe</td>
+                                    <td>mary@example.com</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>July</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+
+                    <!--        aqui termina -->
+                </div>
+                <div class="modal-footer modal-xl">
+
+                    <button type="submit" class="btn btn-primary" name="btnGuardar">GuardarDD</button>
+
+                    <button type="button" class="btn btn-primary">Actualizar</button>
+                    <button type="button" class="btn btn-primary">Nuevo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin de modo modal -->
+
+
+
+
+
+
+
+    <button type="button" class="btn btn-success tamanobotonseg" data-bs-toggle="modal" data-bs-target="#proveedor">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30 fill=" currentColor" class="bi bi-truck"
+            viewBox="0 0 16 16">
+            <path
+                d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+        </svg>Proveedor
+    </button>
+
+
+
+
+    <script src="../vistas/boostrack/js/jquery-3.6.0.min.js"></script>
+    <script src="../vistas/boostrack/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+
+<div class="modal fade modal-xl" id="proveedor">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content modal-xl">
+            <div class="modal-header modal-xl">
+                <h5 class="modal-title modal-xl">Registro de Proveedor</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body modal-xl">
+
+
+
+
+
+            </div>
+            <div class="modal-footer modal-xl">
+
+                <button type="submit" class="btn btn-primary" name="btnGuardar">GuardarDD</button>
+
+                <button type="button" class="btn btn-primary">Actualizar</button>
+                <button type="button" class="btn btn-primary">Nuevo</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<input>
+<input>
+<input>
+<input>
+<input>

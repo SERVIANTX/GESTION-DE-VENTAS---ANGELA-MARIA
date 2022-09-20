@@ -1,0 +1,35 @@
+.xsda{
+   
+  
+    font-size: 15px;
+  
+    color: white;
+}
+.xsda img {
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    font: negrita;
+}
+.letras{
+  font-size: 50px;
+  color: white;
+   margin-right: 250px;
+
+}
+.dash{
+  font-size: 25px;
+}
+
+.tiempo{
+    letter-spacing: 0.05em;
+    font-size: 80px;
+    padding: 5px 0;
+}
+.fecha{
+    letter-spacing: 0.1em;
+    font-size: 54px;
+}
+.colorencabezado{
+background-color: #1f1f24;
+}
